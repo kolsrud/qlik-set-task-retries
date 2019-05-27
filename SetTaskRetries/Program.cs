@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Qlik.Sense.RestClient;
 
-namespace MeasureEndpoint
+namespace SetTaskRetries
 {
     class Program
     {
