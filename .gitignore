@@ -1,0 +1,6 @@
+.vs
+packages
+SetTaskRetries.csproj.user
+*~
+bin
+obj
