@@ -41,7 +41,7 @@ namespace SetTaskRetries
             }
 
             var doApply = GetArg(args, "--apply", 0) != null;
-            Console.WriteLine(doApply ? "Dry run only." : "Applying changes to tasks.");
+            Console.WriteLine(doApply ? "Applying changes to tasks." : "Dry run only.");
 
             SetTaskRetries(client, retryCount, doApply);
         }
